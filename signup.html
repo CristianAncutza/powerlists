@@ -1,0 +1,51 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/estilos_signup.css"/>
+<title id="title">Bienvenido a PowerLists</title>
+</head>
+
+<body>
+	<!-- cabecera -->
+<div id="header">
+
+<a id="homelink" href=""><img src="img/pl_logo2.png" id="logo" alt="powerlist"/></a> 
+<span id="title">El sitio web de intercambio de playlists!</span>
+</div>
+
+	<!-- contenedor -->
+<div id="container_left">
+	<div id="user_title">
+		<h1>Login de Usuario</h1>
+	</div>
+<hr/>
+
+<div >
+	<form id="user_form" action="validacionUsuario.php" method="post">
+		<span class="label">Usuario : </span><input type="text" name="usuario" size="30"/><br/>
+		<span class="label">Password : </span><input type="password" name="password" size="30"/><br/>
+		<input id="button" type="submit" value="Enviar" />
+	</form>
+
+</div>
+
+</div>
+
+<div id="container_right">
+	<div id="playlist_title">
+		<h1>Registracion de Usuario Nuevo</h1>
+	</div>
+ <hr/>
+<form id="newuser_form" action="insertUsuario.php" method="post">
+		<span class="label">Usuario : </span><input type="text" name="usuario" size="30"/><br/>
+		<span class="label">Password : </span><input type="password" name="password" size="30"/><br/>
+		<span class="label">Reingreso de password : </span><input type="password" name="cpassword" size="30"/><br/>
+		<input id="button" type="submit" value="Enviar" />
+</form>
+</div>
+
+	<!-- pie -->
+<div id="footer">
+<span class="comment">Powerlists fue dise&ntilde;ado por Matias Fuentes y Cristian Ancutza</span>
+</div>
+</body>
+</html>

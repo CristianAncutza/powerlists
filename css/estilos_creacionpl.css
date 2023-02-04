@@ -1,0 +1,155 @@
+/*cabecera*/
+
+body{
+background-image:url(../img/mosaico.jpg);
+}
+
+#header{
+	margin-left: 10%;
+	margin-right: 9.7%;
+	background-color: black;
+	opacity: 0.9;
+	border:1px solid black;
+	clear:both;
+	
+}
+
+img{
+	border:none;
+}
+
+.icono{
+	cursor:pointer;
+}
+
+img#logo{
+	margin-left: 5%;
+	border: none;
+}
+
+span#title{
+	margin-left: 5%;
+	font-size: 22px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+}
+
+#login{
+	margin-left: 55% ;
+}
+
+a{
+	color: red;
+	text-decoration:none;
+}
+
+a:hover{
+	background-color: orange;
+}
+
+hr{
+	margin-right:2%;
+}
+
+#user_title{
+	border: 1px solid white;
+	margin-left: 5%;
+	margin-top: 2%;
+	height: 10%;
+	width: 90%;
+	text-align: center;
+	background-color: orange;
+}
+
+
+#sign_up{
+	text-decoration: underline;
+
+	margin-left: 10%;
+
+}
+
+#buscador{
+	margin-left:2%;
+}
+
+/*seccion home.html*/
+
+	/*subseccion users*/
+
+#container_left{
+	background-color: #FF6600;
+	width: 80%;
+	height: 70%;
+	float:left;
+	margin-left: 10.4%;
+	border:10px solid black;
+}
+
+#formulario{
+	margin-left:20%;
+}
+
+table a {
+    color: green;
+}
+
+#button{
+	margin-top: 2%;
+	background: url(../img/boton_send.bmp);
+	cursor:pointer;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 12px;
+	color: grey;
+}
+
+	/*subseccion listas*/
+
+#container_right{
+	background-color: black;
+	width: 0%;
+	height: 70%;
+	float:left;
+	
+}
+
+table{
+	border:none;
+	margin-left:10%;
+}
+
+#boton{
+	margin-top: 2%;
+	background: url(../img/boton_send.bmp);
+	cursor:pointer;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 12px;
+	color: grey;
+}
+
+h1{
+	font-size: 20px;
+	font-family: helvetica;
+}
+
+.comment{
+	font-family: tahoma;
+	font-size: 12px;
+	color: white;
+	margin-left: 45%;
+}
+/* fin home */
+
+/*seccion footer*/
+#footer{
+	margin-left: 10%;
+	margin-right: 9.7%;
+	height: 10%;
+	background-color: black;
+	border:1px solid grey;
+	clear:both;
+}
+

@@ -1,0 +1,186 @@
+/*seccion header*/
+body{
+background-image:url(../img/mosaico.jpg);
+}
+
+#header{
+	margin-left: 10%;
+	margin-right: 9.7%;
+	background-color: black;
+	opacity: 0.9;
+	border:1px solid black;
+	clear:both;
+}
+
+img#logo{
+	margin-left: 5%;
+	border: none;
+}
+
+span#title{
+	margin-left: 5%;
+	font-size: 22px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+}
+
+a{
+	color:red;
+	text-decoration: none;
+
+}
+
+#sign_up{
+	margin-left: 15%;
+}
+
+/*seccion home.html*/
+
+	/*subseccion ingreso*/
+
+#container_left{
+	background-color: #FF6600;
+	width: 33.1%;
+	height: 70%;
+	float:left;
+	margin-left: 10%;
+	border:10px solid black;
+	opacity: 0.9;
+}
+
+#user_title{
+	border: 1px solid white;
+	margin-left: 5%;
+	margin-top: 2%;
+	height: 10%;
+	width: 90%;
+	text-align: center;
+	background-color: #FF3300;
+}
+
+#user_form{
+	margin-left: 10%;
+	margin-top: 15%;
+	height:25%;
+}
+
+#newuser_form{
+	margin-left: 10%;
+	margin-top: 5%;
+	height:20%;
+}
+
+
+span.label{
+	color:white;
+
+	font-family: verdana;
+	font-size: 11px;
+	
+	display: inline-block;
+	height: 45%;
+	width: 20%;
+	margin-left: 10%;
+}
+
+span.label2{
+	color:white;
+
+	font-family: verdana;
+	font-size: 11px;
+	
+	display: inline-block;
+	height: 0%;
+	width: 20%;
+	margin-left: 10%;
+}
+
+.textbox{
+	margin-right:35%;
+}
+
+#button{
+	margin-top: 2%;
+	background: url(../img/boton_send.bmp);
+	cursor:pointer;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 12px;
+	color: grey;
+}
+
+	/*subseccion registracion usuario nuevo*/
+
+#container_right{
+	background-color: #FF6600;
+	width: 44%;
+	height: 70%;
+	float:left;
+	border:10px solid black;
+	opacity: 0.9;
+}
+
+	/*subseccion listas*/
+#playlist_title{
+	border: 1px solid white;
+	margin-left: 5%;
+	margin-top: 2%;
+	height: 10%;
+	width: 90%;
+
+	text-align: center;
+	background-color: #FF3300;
+}
+
+#playlist_photo{
+	margin-left: 35%;
+	margin-top: 0.5%;
+}
+
+#playlist_subtitle{
+	font-size: 14px;
+	font-family: tahoma;
+	color: white;
+	margin-left: 55%;
+}
+
+	/* fin seccion listas*/
+
+.titulo1{
+	margin-top: 3%;
+	font-size: 20px;
+	font-family: helvetica;
+}
+
+.titulo2{
+	margin-top: 2.5%;
+	font-size: 19px;
+	font-family: helvetica;
+}
+
+.comment{
+	
+	font-family: tahoma;
+	font-size: 12px;
+	
+	color: white;
+
+	margin-left: 35%;
+}
+
+/* fin home */
+
+/*seccion foot*/
+
+#footer{
+
+	background-color: black;
+	border:1px solid grey;
+
+	clear:both;
+	margin-left: 10%;
+	margin-right: 9.7%;
+	height: 10%;
+}
+
